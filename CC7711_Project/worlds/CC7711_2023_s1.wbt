@@ -1,0 +1,75 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896257 0.5773502691896257 0.5773502691896257 2.0943245915045035
+  position -8.499770200502681e-05 -8.499424186265449e-05 2.1159852072124012
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+CircleArena {
+  radius 0.6
+}
+DEF E-puck E-puck {
+  hidden position_0_0 2.4166921079527817
+  hidden position_0_1 13.66300497419503
+  hidden rotation_1 0 1 0 2.4166921079527817
+  hidden rotation_2 0 1 0 1.0966343598358563
+  translation -0.3269016840263794 0.016135895176424924 -0.00014655950279707924
+  rotation -0.0011610991350706743 -0.000966070372584117 0.9999988592777663 1.1512720117687132
+  controller "Controlador"
+  supervisor TRUE
+}
+DEF wooden-box WoodenBox {
+  translation 0.4999999970859232 -2.9140768931713314e-09 0.039988236744125355
+  rotation 0.7071067821536616 -0.7071067802194334 -2.494869966432501e-10 1.0309287629700458e-07
+  size 0.08 0.08 0.08
+  mass 0.03
+}
+WoodenBox {
+  translation 0 0.5 0.04
+  name "wooden box(1)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0 -0.5 0.04
+  name "wooden box(2)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0 0 0.04
+  name "wooden box(3)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0.25 0 0.04
+  name "wooden box(4)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation -0.25 0 0.04
+  name "wooden box(5)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation -0.25 -0.25 0.04
+  name "wooden box(6)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0.25 0.25 0.04
+  name "wooden box(7)"
+  size 0.08 0.08 0.08
+}
