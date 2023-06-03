@@ -8,6 +8,8 @@ O código utiliza a plataforma Webots para simular o robô E-Puck. O robô possu
 
 Um objeto específico, chamado "caixa leve", é constantemente monitorado pelo robô. Se o robô detecta que a "caixa leve" se moveu além de um limite de tolerância definido, ele para, alterna o estado de um de seus LEDs e imprime uma mensagem de alerta.
 
+Uma demonstração em forma de vídeo encontra-se disponível no link a seguir (Realize o Download): [Vídeo de Demonstração](https://github.com/akajhon/E-Puck-Robot-Control/blob/main/video-simulacao.mp4)
+
 ## Instruções de configuração 📖
 
 1. Certifique-se de ter a plataforma Webots instalada e configurada em seu sistema.
